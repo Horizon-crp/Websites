@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #d1d1d1;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+.links {
+  padding: 1rem;
+}
+
+
+.article {
+  display: inline-block;
+  border: 3px solid #c7c7c7;
+  padding: 10px;
+  width: 110px;
+  height: 110px;
+  background-color: #d4d4d4;
+}
+
+.article a {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.article a:hover{
+  color: #8a8a8a;
+}
+
+.article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
+  max-height: 80%;
+  width: 100%;
+  border-radius: 1%;
+}
